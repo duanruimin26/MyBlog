@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* css样式重置 */
+body,ol,ul,li,h1,h2,h3,h4,h5,h6,a,form,input,p,table,tr,td,img,button,dl,dt,dd{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img,button,input{
+	border: 0;
+}
+img{
+  vertical-align: middle;
+}
+/* 清除浮动 */
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix:before{
+	content:"\0020";
+	display:block;
+	clear:both;
+	height:0;
+	line-height:0
+}
+.clear{
+	clear: both;
+}
